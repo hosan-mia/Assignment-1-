@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  background: rgb(255, 179, 0);
+  padding: 15px 40px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 25px;
+  border: none;
+}
+
+/* heder style section */
+header {
+  padding: 50px 0;
+}
+.banner {
+  background-image: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),
+    url(img/Banner\ Image.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.banner-content h3 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+}
+.banner-content h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+/* discount style section*/
+.discont-offear {
+  padding: 30px 0px;
+  margin-bottom: 0;
+}
+.discont-offear h1 {
+  color: red;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discont-offear h4 {
+  color: red;
+  font-size: 18px;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discont-offear h2 {
+  font-size: 28px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-year-photo {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* welcome section style */
+.welcome {
+  margin: auto;
+  padding-top: 50px;
+}
+.wolcomeCord {
+  width: 1320px;
+  height: 600px;
+  background-image: linear-gradient(#070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(img/Vectorrr.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.wolcomeText {
+  width: 700px;
+}
+.year2024-img {
+  width: 310px;
+  height: 400px;
+}
+.wolcomeText h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 40px;
+  margin-top: 100px 0;
+  padding-top: 120px;
+}
+.wolcomeText p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+/* details section style*/
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+  text-align: center;
+}
+.details-content {
+  width: 1320px;
+  border-radius: 20px;
+  padding-top: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 50px;
+  background: linear-gradient(rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+}
+.details span {
+  color: red;
+}
+.details-Time {
+  margin-bottom: 50px;
+}
+.details .btn {
+  background: orange;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* offer secton style */
+.free {
+  width: 1320px;
+  height: 500px;
+  margin: auto;
+}
+.free-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1320px;
+  padding-top: 50px;
+}
+.laftText {
+  width: 330px;
+}
+.laftText h3 {
+  color: #f00;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-style: normal;
+}
+.laftText h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 20px 0;
+  font-style: normal;
+}
+.laftText p {
+  font-style: normal;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #d5d1d1;
+}
+.cherkelImeage {
+  width: 325px;
+  height: 325px;
+  border-radius: 370px;
+  border: 12px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+  margin-left: 50px;
+}
+
+.cherkelImeage img {
+  background-repeat: no-repeat;
+  width: 305px;
+  height: 305px;
+}
+.rightText {
+  width: 325px;
+}
+.rightText h2 {
+  color: #f00;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 38px;
+  margin-bottom: 12px;
+}
+.rightText p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 300px;
+  margin-bottom: 30px;
+}
+/* holeday section style */
+.holeday-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.holeday {
+  width: 1320px;
+}
+.holeday-text {
+  text-align: center;
+}
+.holeday-text h4 {
+  font-style: none;
+  font-weight: 500;
+  font-size: 24px;
+}
+.holeday-text h1 {
+  font-size: 70px;
+  font-weight: 900;
+  font-style: normal;
+  margin: 20px 0;
+}
+.holeday-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.holeday-text h1 span {
+  color: red;
+}
+.holeday-img {
+  margin-bottom: 80px;
+}
+.holeday1 {
+  width: 650px;
+  position: absolute;
+  height: 600px;
+  margin-left: 40px;
+}
+.holeday2 {
+  margin-left: 700px;
+  position: absolute;
+}
+.holeday3 {
+  margin-left: 880px;
+}
+.holeday-last-img {
+  position: static;
+}
+
+/* cord section style  */
+.card-section {
+  width: 1320px;
+  margin: auto;
+}
+.card {
+  width: 1320px;
+}
+.cardText h4 {
+  color: red;
+  font-size: 24px;
+  font-size: 500;
+  font-style: normal;
+}
+.cardText h1 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 900;
+  font-style: normal;
+}
+.cardText p {
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 30px;
+}
+.card-fast-row,
+.card-secen-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-fast-row {
+  margin-bottom: 20px;
+}
+.secen-row-img {
+  margin-bottom: 80px;
+}
+.fast-row-img,
+.secen-row-img {
+  width: 460px;
+  height: 420px;
+  display: flex;
+}
+.fast-row-img :hover {
+  border: 5px solid rgb(124, 123, 123);
+  border-radius: 20px;
+}
+.secen-row-img :hover {
+  border: 5px solid rgb(124, 123, 123);
+  border-radius: 20px;
+}
+
+/* Subscribe Newsletter section seyle  */
+.subscribe {
+  width: 1320px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.newsletter {
+  background: rgba(255, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.Subscribe-Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+.Subscribe-Text h1 {
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+}
+.Subscribe-Text p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.Subscribe-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  padding-bottom: 80px;
+}
+.email-input {
+  padding: 20px 80px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #fff;
+  border: none;
+  font-size: 15px;
+}
+.Subscribe-submit .button {
+  background: red;
+  padding: 20px 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+}
+
+/* footer section style  */
+footer {
+  background: #070211;
+}
+.footer-box {
+  width: 1320px;
+  margin: auto;
+  padding-top: 50px;
+  color: #fff;
+}
+.footer-fast-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.footer-laft-text,
+.footer-right-text {
+  color: #fff;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 35px;
+  width: 1320px;
+}
+.footer-right-text {
+  padding-left: 600px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+hr {
+  background: rgba(255, 255, 255, 0.15);
+}
+.footer-icon i {
+  font-size: 40px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+.facebook {
+  color: #1877f2;
+}
+.linkedin {
+  color: #ce7209;
+}
+.twitter {
+  color: rgb(19, 206, 12);
+}
+.instagram {
+  color: rgba(174, 8, 174, 0.963);
+}
+.footer-last-text {
+  color: #fff;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 35px;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
